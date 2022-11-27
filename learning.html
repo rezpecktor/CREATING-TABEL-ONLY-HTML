@@ -3,20 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
-    <table border="1" cellspacing="0" cellpading="5">
+  <body style="background-color: azure">
+    <h1>Membuat Tabel</h1>
+    <table border="1" cellspacing="0" cellpadding="2" width="3S00px" style="text-align: center">
       <tr>
-        <td>2,1</td>
-        <td>2,2</td>
-        <td>2,3</td>
+        <td>Text</td>
+        <td><input type="text" /></td>
+      </tr>
+      <br />
+      <tr>
+        <td>Password</td>
+        <td><input type="password" /></td>
       </tr>
       <tr>
-        <td>2,1</td>
-        <td>2,2</td>
-        <td>2,3</td>
+        <td colspan="2" style="text-align: center">Radio 1<input type="radio" />Radio 2<input type="radio" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" colspan="2" style="text-align: center">checkbox 1<input type="checkbox" />checkbox 2 <input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td>combo box:</td>
+        <td>
+          <select name="multiple" id="multiple">
+            <option value="option">option</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Text area</td>
+        <td><textarea name="bb" id="bb" cols="21" rows="2"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center"><input type="button" value="button" /></td>
       </tr>
     </table>
   </body>
